@@ -1,0 +1,55 @@
+/* Reset Css */
+/* CTRL + / = comentário  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, sans-serif;
+    color: #444;
+}
+
+section{
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.intro-gray{
+    background-color: #f7f7f7;;
+}
+
+.team-gray{
+    background-color: #f7f7f7;
+}
+
+.intro-gray p{
+    margin: 1rem 0 ;
+    font-size: 1.5rem;
+    font-weight: 150;
+}
+
+footer{
+    background-color: #3788bf;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.button1{
+    background-color: #3396f3;
+    color:white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
