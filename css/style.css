@@ -34,6 +34,8 @@ h1{
     font-weight: 150;
 }
 
+
+
 footer{
     background-color: #3788bf;
 }
@@ -44,12 +46,38 @@ footer{
     padding: 0 1rem;
 }
 
-.button1{
-    background-color: #3396f3;
-    color:white;
+.button{
+    
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
     margin-right: 5px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+.primary{
+    background-color: #3396f3;
+    color:white;
+}
+
+.secondary{
+
+    background-color: white;
+    color: #444;
+}
+
+.cta{
+    margin: 2rem 0;
+}
+
+.button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 1);
+}
+
+h1 .title{
+    font-weight: bold;
+    margin-bottom:2rem;
+    text-align: center;
 }
