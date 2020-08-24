@@ -46,6 +46,13 @@ footer{
     background-color: #3788bf;
 }
 
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 3rem;
+    justify-content: space-evenly;
+}
+
 .container{
     max-width: 1000px;
     margin: auto;
@@ -175,3 +182,4 @@ footer{
     height: 120px;
     border-radius: 50%;
 }
+
