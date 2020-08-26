@@ -59,9 +59,17 @@ footer ul{
     padding: 0 1rem;
 }
 
+.pdb p{
+    text-align: center;
+}
+
+.pdb a{
+    color: white;
+}
+
 .button{
     
-    padding: 10px 25px;
+    padding: 20px 25px;
     text-decoration: none;
     border-radius: 5px;
     margin-right: 5px;
@@ -82,6 +90,7 @@ footer ul{
 }
 
 .cta{
+    text-align: center;   
     margin: 2rem 0;
 }
 
@@ -92,7 +101,6 @@ footer ul{
     display: flex;
     justify-content: space-between;
 }
-
 
 .card-red{
     background-color: rgb(187, 53, 53);
@@ -106,8 +114,12 @@ footer ul{
 
     font-size: 1.7rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 22px;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.2);
+
+
 }
+
 
 .card-blue{
     background-color: rgb(62, 62, 192);
@@ -121,8 +133,8 @@ footer ul{
 
     font-size: 1.7rem;
     color: white;
-    border-radius: 5px;
-    
+    border-radius: 22px;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -138,7 +150,8 @@ footer ul{
 
     font-size: 1.7rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 22px;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card-yellow{
@@ -153,8 +166,8 @@ footer ul{
 
     font-size: 1.7rem;
     color: white;
-    border-radius: 5px;
-
+    border-radius: 22px;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card-green{
@@ -169,7 +182,8 @@ footer ul{
 
     font-size: 1.7rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 22px;
+    box-shadow: 0 11px 8px rgba(0, 0, 0, 0.2);
 }
 
 .members{
