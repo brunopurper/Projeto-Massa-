@@ -11,6 +11,27 @@ body{
     color: #444;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 211px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
 section{
     padding: 3rem 0 4rem 0;
 }
